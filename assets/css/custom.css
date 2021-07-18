@@ -1,0 +1,43 @@
+.login{
+  padding-top: 10%;
+}
+
+.login .form-signin {
+  max-width: 330px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.login .form-signin .form-signin-heading,
+.login .form-signin {
+  margin-bottom: 10px;
+}
+.login .form-signin input[type="text"],
+.login .form-signin input[type="password"]{
+  position: relative;
+  font-size: 18px;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #1BBC98;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #1BBC98;
+}
+.login .form-signin input[type="text"]:focus{
+  border-color: #1BBC98;
+  z-index: 2;
+}
+.login .form-signin input[type="password"]:focus{	
+  border-color: #1BBC98;
+  z-index: 2;
+}
+.login .form-signin input.top {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+.login .form-signin input.bottom {
+  border-radius: 0px;
+}
